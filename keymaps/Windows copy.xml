@@ -82,6 +82,9 @@
   <action id="Forward">
     <mouse-shortcut keystroke="button5" />
   </action>
+  <action id="Github.Open.In.Browser">
+    <keyboard-shortcut first-keystroke="alt g" />
+  </action>
   <action id="GotoFile">
     <keyboard-shortcut first-keystroke="shift ctrl p" />
   </action>
