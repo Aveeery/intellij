@@ -77,4 +77,7 @@
   </action>
   <action id="Terminal.ClearBuffer" />
   <action id="Vcs.Log.FocusTextFilter" />
+  <action id="Vcs.Show.Local.Changes">
+    <keyboard-shortcut first-keystroke="alt #10000e9" />
+  </action>
 </keymap>
