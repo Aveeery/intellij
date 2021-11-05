@@ -1,8 +1,10 @@
 <application>
   <component name="FileTypeManager" version="18">
     <extensionMap>
+      <mapping pattern="FollowService" type="AUTO_DETECTED" />
       <mapping pattern="Procfile" type="AUTO_DETECTED" />
       <mapping pattern="bootstrap" type="AUTO_DETECTED" />
+      <mapping pattern="FollowService.js" type="AUTO_DETECTED" />
       <mapping pattern="env" type="AUTO_DETECTED" />
       <mapping pattern=".ideavimrc" type="PLAIN_TEXT" />
       <mapping pattern=".prettierc" type="PLAIN_TEXT" />
