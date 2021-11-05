@@ -1,0 +1,6 @@
+<application>
+  <component name="OverrideFileTypeManager">
+    <file url="file://$USER_HOME$/wiztivi-training/my-app/scripts/app/services/FollowService.js" value="JavaScript" />
+    <file url="file://$USER_HOME$/wiztivi-training/my-app/tests/unit/app/FollowService.js" value="JavaScript" />
+  </component>
+</application>
