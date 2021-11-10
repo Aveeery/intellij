@@ -7,6 +7,14 @@
     <keyboard-shortcut first-keystroke="alt f12" />
     <keyboard-shortcut first-keystroke="alt a" />
   </action>
+  <action id="CommentByBlockComment">
+    <keyboard-shortcut first-keystroke="shift ctrl slash" />
+    <keyboard-shortcut first-keystroke="shift ctrl divide" />
+    <keyboard-shortcut first-keystroke="ctrl colon" />
+  </action>
+  <action id="CommentByLineComment">
+    <keyboard-shortcut first-keystroke="ctrl divide" />
+  </action>
   <action id="ExpressionTypeInfo" />
   <action id="SearchEverywhere">
     <keyboard-shortcut first-keystroke="shift ctrl p" />
