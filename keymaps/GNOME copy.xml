@@ -7,6 +7,10 @@
     <keyboard-shortcut first-keystroke="alt f12" />
     <keyboard-shortcut first-keystroke="alt a" />
   </action>
+  <action id="ExpressionTypeInfo" />
+  <action id="SearchEverywhere">
+    <keyboard-shortcut first-keystroke="shift ctrl p" />
+  </action>
   <action id="Vcs.Show.Local.Changes">
     <keyboard-shortcut first-keystroke="alt #10000e9" />
   </action>
