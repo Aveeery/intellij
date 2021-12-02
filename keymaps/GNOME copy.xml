@@ -46,6 +46,7 @@
   </action>
   <action id="EditorLookupDown" />
   <action id="EditorLookupUp" />
+  <action id="EditorMatchBrace" />
   <action id="EditorNextWord" />
   <action id="EditorNextWordWithSelection" />
   <action id="EditorPreviousWord" />
@@ -95,5 +96,8 @@
   <action id="Vcs.Log.FocusTextFilter" />
   <action id="Vcs.Show.Local.Changes">
     <keyboard-shortcut first-keystroke="alt #10000e9" />
+  </action>
+  <action id="ViewMainMenu">
+    <keyboard-shortcut first-keystroke="shift ctrl m" />
   </action>
 </keymap>
