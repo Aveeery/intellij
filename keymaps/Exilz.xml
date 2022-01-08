@@ -62,8 +62,13 @@
     <keyboard-shortcut first-keystroke="meta add" />
   </action>
   <action id="EditorLineEnd">
-    <keyboard-shortcut first-keystroke="end" />
     <keyboard-shortcut first-keystroke="meta right" />
+  </action>
+  <action id="EditorLineStart">
+    <keyboard-shortcut first-keystroke="meta left" />
+  </action>
+  <action id="EditorLineStartWithSelection">
+    <keyboard-shortcut first-keystroke="shift meta left" />
   </action>
   <action id="EditorResetFontSize">
     <keyboard-shortcut first-keystroke="meta numpad0" />
@@ -102,9 +107,7 @@
     <keyboard-shortcut first-keystroke="shift meta d" />
   </action>
   <action id="Git.Commit.And.Push.Executor" />
-  <action id="GotoAction">
-    <keyboard-shortcut first-keystroke="shift meta p" />
-  </action>
+  <action id="GotoAction" />
   <action id="GotoDeclaration">
     <keyboard-shortcut first-keystroke="meta b" />
     <mouse-shortcut keystroke="meta button1" />
@@ -116,7 +119,6 @@
     <keyboard-shortcut first-keystroke="meta p" />
   </action>
   <action id="GotoLine">
-    <keyboard-shortcut first-keystroke="meta l" />
     <keyboard-shortcut first-keystroke="ctrl g" />
   </action>
   <action id="GotoRelated" />
@@ -144,6 +146,9 @@
     <keyboard-shortcut first-keystroke="ctrl right" />
     <keyboard-shortcut first-keystroke="meta alt right" />
   </action>
+  <action id="OpenFile">
+    <keyboard-shortcut first-keystroke="shift meta p" />
+  </action>
   <action id="ParameterInfo" />
   <action id="PrevSplitter" />
   <action id="PreviousTab">
@@ -169,6 +174,7 @@
   <action id="RunDashboard.CopyConfiguration">
     <keyboard-shortcut first-keystroke="meta j" />
   </action>
+  <action id="SaveAs" />
   <action id="SearchEverywhere.NavigateToNextGroup">
     <keyboard-shortcut first-keystroke="page_down" />
   </action>
@@ -177,14 +183,13 @@
   </action>
   <action id="SelectNextOccurrence">
     <keyboard-shortcut first-keystroke="meta d" />
+    <keyboard-shortcut first-keystroke="meta l" />
   </action>
   <action id="SendEOF" />
   <action id="ShowNavBar">
     <keyboard-shortcut first-keystroke="alt home" />
   </action>
-  <action id="ShowSettings">
-    <keyboard-shortcut first-keystroke="meta alt s" />
-  </action>
+  <action id="ShowSettings" />
   <action id="SmartTypeCompletion">
     <keyboard-shortcut first-keystroke="shift ctrl space" />
     <keyboard-shortcut first-keystroke="shift space" />
@@ -210,12 +215,19 @@
   <action id="Switcher">
     <keyboard-shortcut first-keystroke="alt tab" />
   </action>
+  <action id="Terminal.ClearBuffer">
+    <keyboard-shortcut first-keystroke="meta k" />
+  </action>
   <action id="Uml.ShowDiff" />
   <action id="Vcs.EditSource">
     <keyboard-shortcut first-keystroke="f4" />
   </action>
+  <action id="Vcs.Log.FocusTextFilter" />
   <action id="Vcs.Log.Refresh" />
   <action id="Vcs.Push" />
+  <action id="WelcomeScreen.Settings">
+    <keyboard-shortcut first-keystroke="shift meta s" />
+  </action>
   <action id="XDebugger.CopyWatch">
     <keyboard-shortcut first-keystroke="meta j" />
   </action>
@@ -224,5 +236,6 @@
   </action>
   <action id="hg4idea.QRefresh" />
   <action id="openAssertEqualsDiff" />
+  <action id="org.intellij.plugins.markdown.ui.actions.styling.ToggleStrikethroughAction" />
   <action id="rspec.LetIntroduce" />
 </keymap>
