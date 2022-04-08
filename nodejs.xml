@@ -1,0 +1,10 @@
+<application>
+  <component name="NodeJsLocalInterpreterManager">
+    <local-interpreter path="//wsl$/Ubuntu/home/letchebarne/.nvm/versions/node/v17.8.0/bin/node">
+      <version-cache last-modified="1647917346000" />
+    </local-interpreter>
+  </component>
+  <component name="WslNodeInterpreterManager">
+    <wsl-interpreter distribution="Ubuntu" path="/home/letchebarne/.nvm/versions/node/v17.8.0/bin/node" />
+  </component>
+</application>
